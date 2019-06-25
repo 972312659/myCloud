@@ -1,0 +1,73 @@
+[mysql]
+host     = 119.23.153.253
+username = peach
+password = cV0IxSOLyA0d2fxT
+dbname   = cloud_dev
+charset  = utf8mb4
+
+[redis]
+host = 172.17.0.1
+port = 6379
+index = 1
+
+[queue]
+host = 127.0.0.1
+port = 11300
+
+[qiniu]
+accessKey = 
+secretKey =
+
+[sphinx]
+host = 172.17.0.1
+port = 9306
+
+[meta]
+url = http://meta.dev.100cbc.com
+
+[application]
+appDir              = ../app/
+controllersDir      = ../app/controllers/
+adminControllersDir = ../app/controllers/admin/
+modelsDir           = ../app/models/
+validatorsDir       = ../app/validators/
+viewsDir            = ../app/views/
+pluginsDir          = ../app/plugins/
+exceptionsDir       = ../app/exceptions/
+libsDir             = ../app/libs/
+enumsDir            = ../app/enums/
+cacheDir            = ../cache/
+baseUri             = /
+sessionName         = SID
+
+[companywechat]
+corpid            = wwba698d01f2d30943
+secretAddressBook = qJHP2uYFX3XdFA8eptSlLfc7N394Gzawc0cK3YTnpuI
+agentid           = 1000002
+secretSelfCreate  = gKHn05RpZEsrlUkBmcaaG-p1pBEQ6LRSjze5Y3PxU9s
+
+[machine]
+;test
+baseUrl  = http://meta.dev.100cbc.com/
+linkUrl      = http://meta.dev.100cbc.com/#/check
+;production
+;baseUrl  = http://www.meta.100cbc.com/
+;linkUrl      = http://meta.100cbc.com/#/check
+
+[wxpay]
+app_id =
+mch_id =
+key =
+cert_path =
+key_path =
+rsa_public_key_path =
+
+[mongodb]
+dsn = mongodb://127.0.0.1
+authDatabase = admin
+database = cloud
+username =
+password =
+
+[sms]
+url = base-notice.jk.100cbc.com/sms/send
