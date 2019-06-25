@@ -1,7 +1,7 @@
 [mysql]
-host     = 119.23.153.253
+host     =
 username = peach
-password = cV0IxSOLyA0d2fxT
+password =
 dbname   = cloud_dev
 charset  = utf8mb4
 
